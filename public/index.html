@@ -1,13 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Grid Design</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>hello</h1>
+    <!-- Navbar section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/icon-layout.png" alt="Grid Icon" />
+                <span><strong>Grid</strong></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">How it works</a></li>
+                <li><a href="#">Who we are</a></li>
+                <li><a href="#">What we do</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <button class="sign-in">Sign In</button>
+        </nav>
+    </header>
+
+    <!-- Title -->
+    <div class="hero-title">
+        <h1>Combine <span class="highlight-red">fine</span> images<br />
+            To represent a product</h1>
+    </div>
+
+    <img class="dots-bg" src="assets/images/Dots 1.png" alt="Dots" />
+    </section>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-layout">
+            <!-- LEFT COLUMN -->
+            <div class="hero-col">
+                <p class="hero-text">
+                    Use mixed grid with imagery,<br>
+                    replace with your own photos and descriptions
+                </p>
+                <img src="assets/images/Card We aim.png" alt="We aim" class="card-we-aim" />
+                <a href="#" class="hero-button">Learn more</a>
+            </div>
+
+            <!-- CENTER COLUMN -->
+            <div class="hero-col">
+                <img src="assets/images/Card -Consider it done.png" alt="Consider it done" class="card-consider" />
+                <div class="card-row">
+                    <img src="assets/images/Card -Book.png" alt="Book" class="card-book" />
+                    <img src="assets/images/Card -Girl thinking.png" alt="Girl thinking" class="card-girl-thinking" />
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="hero-col">
+                <p class="hero-text">
+                    This is multipurpose grid, it fits for<br>
+                    portfolio, services or agency web site
+                </p>
+                <div class="card-pair">
+                    <img src="assets/images/Card -Letter A.png" alt="Letter A" class="card-letter-a" />
+                    <img src="assets/images/Card -blue shoe.png" alt="Blue shoe" class="card-blue-shoe" />
+                </div>
+                <img src="assets/images/Card -window.png" alt="Window" class="card-window" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero section -->
+    <section class="features">
+        <h3>
+            Delivering good designs <span class="highlight">since 1954</span>
+        </h3>
+        <p class="features-description">
+            Were the first multi-purpose design kit solutions for businesses. We help you bridge
+            gaps between your layouts, templates and developers to empower all involved.
+        </p>
+
+        <div class="feature-boxes">
+            <div class="feature">
+                <img src="assets/images/icon-phone-call.png" alt="Support Icon" class="supportIcon" />
+                <p class="feature-title">Support</p>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                </p>
+                <a href="#" class="learn-more-button">Learn more</a>
+            </div>
+
+            <div class="feature">
+                <img src="assets/images/icon-pie-chart.png" alt="Sales Icon" class="salesIcon" />
+                <p class="feature-title">Sales growth</p>
+                <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <a href="#" class="learn-more-button">Learn more</a>
+            </div>
+
+            <div class="feature">
+                <img src="assets/images/icon-zap.png" alt="Zap Icon" class="zapIcon" />
+                <p class="feature-title">Coponents-driven</p>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma
+                </p>
+                <a href="#" class="learn-more-button">Learn more</a>
+            </div>
+
+            <div class="feature">
+                <img src="assets/images/icon-thumbs-up.png" alt="Thumbs Up Icon" class="thumbsupIcon" />
+                <p class="feature-title">Swap the icon</p>
+                <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter
+                </p>
+                <a href="#" class="learn-more-button">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section class="pricing">
+        <h2>Affordable pricing</h2>
+        <p class="billing-toggle">Bill me <span class="highlight">monthly</span> • yearly</p>
+
+        <div class="pricing-tiers">
+            <!-- Tier 1: Free -->
+            <div class="tier">
+                <p class="label">Like a pussy</p>
+                <h3>Free <span>/ forever</span></h3>
+                <ul>
+                    <li><img src="assets/images/check grey.png" alt="Check" /> Components-driven system</li>
+                    <li><img src="assets/images/check grey.png" alt="Check" /> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/check grey.png" alt="Check" /> Awesome Feather icons pack</li>
+                </ul>
+                <button class="tier-button outline">Try for free</button>
+            </div>
+
+            <!-- Tier 2: Individual -->
+            <div class="tier best">
+                <p class="label blue">Individual</p>
+                <h3>$24 <span>/ month</span></h3>
+                <ul>
+                    <li><img src="assets/images/check yellow.png" alt="Check" /> Components-driven system</li>
+                    <li><img src="assets/images/check yellow.png" alt="Check" /> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/check yellow.png" alt="Check" /> Awesome Feather icons pack</li>
+                    <li><img src="assets/images/check yellow.png" alt="Check" /> Themed into 3 different styles</li>
+                    <li><img src="assets/images/check yellow.png" alt="Check" /> Will help to learn Figma</li>
+                </ul>
+                <button class="tier-button primary">Regular license</button>
+            </div>
+
+            <!-- Tier 3: Corporate -->
+            <div class="tier">
+                <p class="label green">Corporate</p>
+                <h3>$12 <span>, editor</span></h3>
+                <ul>
+                    <li><img src="assets/images/check green.png" alt="Check" /> Components-driven system</li>
+                    <li><img src="assets/images/check green.png" alt="Check" /> Sales-boosting landing pages</li>
+                    <li><img src="assets/images/check green.png" alt="Check" /> Awesome Feather icons pack</li>
+                    <li><img src="assets/images/check green.png" alt="Check" /> Themed into 3 different styles</li>
+                </ul>
+                <button class="tier-button outline">Extended license</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- Socials and Information -->
+            <div class="footer-left">
+                <p class="footer-label">FOLLOW US</p>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/images/icon-facebook.png" alt="Facebook" /></a>
+                    <a href="#"><img src="assets/images/icon-purpleLinkedin.png" alt="LinkedIn" /></a>
+                    <a href="#"><img src="assets/images/icon-slack.png" alt="Slack" /></a>
+                    <a href="#"><img src="assets/images/icon-twitter.png" alt="Twitter" /></a>
+                </div>
+
+                <p class="footer-label">INFORMATION</p>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">About Fapster app</a></li>
+                        <li><a href="#">Get in Touch</a></li>
+                        <li><a href="#">Things We Like</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Onhovered / Active</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">We are hiring!</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Email & Form -->
+            <div class="footer-right">
+                <p class="footer-label">FOLLOW US</p>
+                <p class="footer-email">hello@fapsterapp.com</p>
+                <p class="footer-label">KEEP IN TOUCH</p>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Your name" />
+                        <input type="email" placeholder="E-mail" />
+                    </div>
+                    <textarea placeholder="Leave your message!"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Wave Image -->
+        <div class="footer-wave">
+            <img src="assets/images/Wave.png" alt="Wave" />
+        </div>
+    </footer>
+
 </body>
+
 </html>
